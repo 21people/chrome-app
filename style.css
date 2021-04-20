@@ -9,15 +9,15 @@ body {
   cursor: pointer;
 }
 .js-weather {
-  display: grid;
-  justify-content: end;
+  display: block;
   font-size: 9px;
-  margin-right: 5vh;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .js-clock {
   text-align: center;
-  font-size: xxx-large;
+  font-size: 5vw;
 }
 
 .js-clock h1 {
@@ -28,11 +28,11 @@ body {
 
 .form {
   display: none;
-  position: center;
 }
 
 .showing {
   display: block;
+  text-align: center;
 }
 
 .js-greetings {
@@ -50,6 +50,7 @@ body {
   justify-self: center;
 }
 
+.js-form input,
 .js-toDoForm input {
   background: transparent;
   border-left-width: 0;
@@ -60,11 +61,13 @@ body {
   text-align: center;
 }
 
+.js-form input:focus,
 .js-toDoForm input:focus {
   outline: none;
   text-align: left;
 }
 
+.js-form input::placeholder,
 .js-toDoForm input::placeholder {
   color: white;
   text-align: center;
