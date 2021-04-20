@@ -28,7 +28,7 @@ body {
 
 .form {
   display: none;
-  text-underline-position: below;
+  position: center;
 }
 
 .showing {
